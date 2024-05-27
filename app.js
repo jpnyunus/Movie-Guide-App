@@ -7,7 +7,7 @@ const key = 'd9dcbb37';
 // API'den veri çekme fonksiyonu
 let getMovie = () => {
   let movieName = movieNameRef.val();
-  let url = `http://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
+  let url = `https://www.omdbapi.com/?t=${movieName}&apikey=${key}`;
 
   // Eğer giriş alanı boş değilse
   if (movieName.trim() !== "") {
